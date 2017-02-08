@@ -1,0 +1,8 @@
+[package]
+name = "chip8vm"
+version = "0.1.0"
+authors = ["Markus Hedvall <mackanhedvall@gmail.com>"]
+
+[dependencies]
+chip8core = { path = "../chip8core" }
+rand = "0.3.15"
